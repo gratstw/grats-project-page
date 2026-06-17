@@ -1,0 +1,10 @@
+GRATS Dataset Terms of Use Draft
+
+This is a draft. Please confirm with the lab/institution before publication.
+
+1. The dataset is provided for non-commercial academic research use only unless separate written permission is granted.
+2. Users may not redistribute the raw audio, video, metadata, or any speaker-identifiable derived data.
+3. Users may not attempt to identify speakers or recover personal information.
+4. Users must cite the corresponding GRATS or AV-GRATS paper when using the dataset or benchmark protocol.
+5. Users must follow all additional conditions in the dataset access agreement.
+6. Access may be revoked if the terms are violated.

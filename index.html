@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GRATS Dataset Project</title>
+  <meta name="description" content="GRATS: a naturally recorded parallel multi-speed Mandarin dataset project for speech time-scale modification and audio-visual speech research." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html"><span class="brand-mark">G</span><span>GRATS</span></a>
+      <div class="nav-links">
+        <a href="#overview">Overview</a>
+        <a href="#datasets">Datasets</a>
+        <a href="#examples">Examples</a>
+        <a href="#access">Access</a>
+        <a href="#benchmark">Benchmark</a>
+        <a href="#citation">Citation</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Granular Rate Adaptation for Temporal Scaling</p>
+        <h1>Natural multi-speed Mandarin speech for rate-robust research</h1>
+        <p class="hero-text">
+          GRATS provides naturally produced target-rate recordings for studying Mandarin
+          speaking-rate variation, speech time-scale modification, and audio-visual speech recognition.
+        </p>
+        <div class="hero-buttons">
+          <a class="button primary" href="#examples">Listen to Examples</a>
+          <a class="button secondary" href="#access">Access Information</a>
+        </div>
+      </div>
+      <aside class="hero-panel" aria-label="Dataset summary">
+        <div class="panel-row"><span>Expanded corpus</span><strong>15,000 utterances</strong></div>
+        <div class="panel-row"><span>Speaking rates</span><strong>0.5×–1.5×</strong></div>
+        <div class="panel-row"><span>Design</span><strong>Parallel natural recordings</strong></div>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <section id="overview" class="section">
+      <div class="section-heading">
+        <p class="section-kicker">Overview</p>
+        <h2>Designed for realistic speaking-rate analysis</h2>
+      </div>
+      <p class="lead">
+        GRATS supports research on Mandarin speaking-rate variation. Unlike datasets that rely on
+        artificially time-scaled references, GRATS provides naturally produced target-rate recordings
+        from the same speaker and sentence. This makes it possible to evaluate whether speech
+        time-scale modification systems approach authentic Mandarin target-rate realizations.
+      </p>
+
+      <div class="notice anonymous">
+        <strong>Anonymous review note</strong>
+        <span>
+          This project-page draft has been anonymized for double-blind review. Author names,
+          institutional affiliations, and direct identifying contact information have been removed
+          and should be restored only after the review process is complete.
+        </span>
+      </div>
+
+      <div class="notice">
+        <strong>Dataset version note</strong>
+        <span>
+          The published paper reports the original 25-speaker, 60-prompt, 7,500-utterance version.
+          The current expanded corpus adds another 25-speaker, 60-prompt, 7,500-utterance set,
+          resulting in 15,000 utterances in total. This is two 25 × 60 × 5 subsets, not a fully
+          crossed 50 × 120 × 5 design.
+        </span>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card"><span class="stat-number">50</span><span class="stat-label">Native Mandarin speakers in expanded corpus</span></div>
+        <div class="stat-card"><span class="stat-number">5</span><span class="stat-label">Speaking rates</span></div>
+        <div class="stat-card"><span class="stat-number">15,000</span><span class="stat-label">Total utterances in expanded corpus</span></div>
+        <div class="stat-card"><span class="stat-number">2 × 60</span><span class="stat-label">Prompt sets in expanded corpus</span></div>
+      </div>
+    </section>
+
+    <section id="datasets" class="section alt">
+      <div class="section-heading">
+        <p class="section-kicker">Datasets</p>
+        <h2>Speech and audio-visual resources</h2>
+      </div>
+      <div class="cards">
+        <article class="card feature-card">
+          <span class="card-badge">Speech</span>
+          <h3>GRATS Speech Dataset</h3>
+          <p>
+            A naturally recorded parallel multi-speed Mandarin speech dataset for speech time-scale
+            modification benchmarking. The original paper version contains 25 speakers, 60 prompts,
+            and 7,500 utterances. The expanded corpus adds another 25-speaker, 60-prompt,
+            7,500-utterance set.
+          </p>
+          <ul>
+            <li>Natural target-rate references</li>
+            <li>Controlled speaker-sentence-rate pairing</li>
+            <li>Five target rates: 0.5×, 0.75×, 1.0×, 1.25×, 1.5×</li>
+          </ul>
+        </article>
+        <article class="card feature-card">
+          <span class="card-badge">Audio-visual</span>
+          <h3>AV-GRATS Audio-Visual Dataset</h3>
+          <p>
+            An audio-visual extension for evaluating audio-visual speech recognition under
+            speaking-rate variation. The original paper version reports 25 speakers and 7,500
+            utterances, while the expanded release can document the additional set separately.
+          </p>
+          <ul>
+            <li>Audio-video synchronized recordings</li>
+            <li>Mandarin AVSR robustness analysis</li>
+            <li>Controlled multi-speed setting</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="examples" class="section">
+      <div class="section-heading">
+        <p class="section-kicker">Examples</p>
+        <h2>Audio examples for five speaking rates</h2>
+      </div>
+      <p class="lead">
+        Replace the sample sentence text, transcript, and file paths with your own clips. For
+        anonymous review, use audio only and remove identity-revealing metadata before uploading.
+      </p>
+      <div class="example-card">
+        <div class="example-header">
+          <div>
+            <h3>Example 1</h3>
+            <p><strong>Sentence:</strong> 這學期學校有書法比賽</p>
+          </div>
+          <span class="pill">Natural recordings</span>
+        </div>
+        <div class="audio-grid">
+          <div class="audio-item"><h4>0.5×</h4><audio controls preload="none"><source src="audio/example1_0.5x.wav" type="audio/wav" /></audio><p class="small"><code>0.5x.wav</code></p></div>
+          <div class="audio-item"><h4>0.75×</h4><audio controls preload="none"><source src="audio/example1_0.75x.wav" type="audio/wav" /></audio><p class="small"><code>0.75x.wav</code></p></div>
+          <div class="audio-item"><h4>1.0×</h4><audio controls preload="none"><source src="audio/example1_1.0x.wav" type="audio/wav" /></audio><p class="small"><code>1.0x.wav</code></p></div>
+          <div class="audio-item"><h4>1.25×</h4><audio controls preload="none"><source src="audio/example1_1.25x.wav" type="audio/wav" /></audio><p class="small"><code>1.25x.wav</code></p></div>
+          <div class="audio-item"><h4>1.5×</h4><audio controls preload="none"><source src="audio/example1_1.5x.wav" type="audio/wav" /></audio><p class="small"><code>1.5x.wav</code></p></div>
+        </div>
+      </div>
+      <!-- <div class="example-card soft">
+        <h3>Example 2 (optional)</h3>
+        <p>Add another example sentence here by duplicating the Example 1 block and changing the filenames.</p>
+      </div> -->
+    </section>
+
+    <section id="access" class="section alt">
+      <div class="section-heading">
+        <p class="section-kicker">Access</p>
+        <h2>Controlled-access research release</h2>
+      </div>
+      <p class="lead">
+        The dataset is provided for research use through a controlled-access request process.
+        Requesters should prepare their name, affiliation, institutional email, research purpose,
+        and agreement to the dataset terms of use.
+      </p>
+      <div class="notice"><strong>Access form</strong><span>Review link or the final access request link after approval.</span></div>
+      <p>During double-blind review, direct identifying contact details can remain hidden. The official project contact and access form will be provided after review.</p>
+    </section>
+
+    <section id="benchmark" class="section">
+      <div class="section-heading">
+        <p class="section-kicker">Benchmark</p>
+        <h2>Natural reference protocol</h2>
+      </div>
+      <p class="lead">
+        For speech time-scale modification evaluation, the naturally recorded 1.0× utterance is used as input.
+        System outputs at the target rates are compared against the corresponding naturally recorded
+        target-rate utterances from the same speaker and sentence.
+      </p>
+      <div class="protocol">
+        <div><span class="step">01</span><h3>Input</h3><p>Natural 1.0× recording</p></div>
+        <div><span class="step">02</span><h3>Target rates</h3><p>0.5×, 0.75×, 1.25×, 1.5×</p></div>
+        <div><span class="step">03</span><h3>References</h3><p>Natural target-rate recordings</p></div>
+        <div><span class="step">04</span><h3>Metrics</h3><p>CER, PESQ, STOI, DNSMOS, duration MAE, F0 correlation</p></div>
+      </div>
+    </section>
+
+    <section id="terms" class="section alt">
+      <div class="section-heading"><p class="section-kicker">Terms</p><h2>Responsible use</h2></div>
+      <ul class="terms-list">
+        <li>Use the dataset only for non-commercial academic research unless separate permission is granted.</li>
+        <li>Do not redistribute the raw audio, video, metadata, or derived speaker-identifiable data.</li>
+        <li>Do not attempt to identify speakers or recover personal information.</li>
+        <li>Cite the corresponding paper when using the dataset or benchmark protocol.</li>
+        <li>Follow any additional data-use agreement provided during the access request process.</li>
+      </ul>
+    </section>
+
+    <section id="citation" class="section">
+      <div class="section-heading"><p class="section-kicker">Citation</p><h2>Anonymous placeholders</h2></div>
+      <p>This anonymized draft intentionally omits author-identifying citation information. The final public citations will be provided after review.</p>
+      <pre class="bibtex"><code>@inproceedings{grats2026,
+  title     = {GRATS: A Natural Multi-Speed Mandarin Dataset for Speech Time-Scale Modification Benchmarking},
+  author    = {Anonymous Authors},
+  booktitle = {Proc. Venue Placeholder},
+  year      = {2026}
+}</code></pre>
+      <pre class="bibtex"><code>@inproceedings{avgrats2026,
+  title     = {AV-GRATS: A Parallel Multi-Speed Mandarin Audio-Visual Corpus for Speaking-Rate Robustness Analysis},
+  author    = {Anonymous Authors},
+  booktitle = {Proc. Venue Placeholder},
+  year      = {2026}
+}</code></pre>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="section-heading"><p class="section-kicker">Contact</p><h2>Post-review update needed</h2></div>
+      <p>For anonymous review, direct contact information is intentionally omitted. The official project or lab contact email, or link to an approved access request form will be provided after review.</p>
+      <p class="contact-email"><code>anonymous-contact@example.com</code></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 GRATS Dataset Project. Research use only.</p>
+    <p>This anonymized website draft is intended for double-blind review preparation.</p>
+  </footer>
+</body>
+</html>
